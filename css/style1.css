@@ -1,0 +1,24 @@
+body{
+  background: linear-gradient(180deg,#FAACA8 0%, #DDD6F3 100%);
+  font-family: 'Arvo', serif;
+  color:#564861;
+  min-height:100vh;
+}
+.names{font-family:'Great Vibes',cursive;}
+.sloka{font-family:'Noto Sans Telugu',sans-serif;font-weight:700;color:#674ea7;}
+.btn-gradient{
+  background:linear-gradient(90deg,#9b313c,#b33aa2);
+  color:#fff;border:none;border-radius:1rem;
+}
+.btn-gradient:hover{opacity:.9;}
+#countdown .box{
+  width:130px;height:120px;border-radius:.75rem;
+  display:flex;flex-direction:column;justify-content:center;
+  color:#fff;font-size:32px;line-height:1.1;
+}
+#countdown .label{font-size:.55em;text-transform:uppercase;letter-spacing:1px;}
+/* palette for four boxes */
+.days{background:linear-gradient(90deg,#b33aa2,#9b313c);}
+.hours{background:linear-gradient(90deg,#6cd8ff,#8995ff);}
+.minutes{background:linear-gradient(90deg,#8995ff,#6cd8ff);}
+.seconds{background:linear-gradient(90deg,#9b313c,#b33aa2);}
